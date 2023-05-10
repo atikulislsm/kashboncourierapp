@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:title="Menu">
+            <menu>
+
+                <item
+                    android:id="@+id/trackParcel"
+                    android:icon="@drawable/parcel_track_icon"
+                    android:title="Track Parcel" />
+
+                <item
+                    android:id="@+id/service"
+                    android:icon="@drawable/service_icon"
+                    android:title="Services" />
+
+                <item
+                    android:id="@+id/pricing"
+                    android:icon="@drawable/baseline_price_check_24"
+                    android:title="Pricing" />
+
+                <item
+                    android:id="@+id/aboutUs"
+                    android:icon="@drawable/aboutus_icon"
+                    android:title="About Us" />
+                <item
+                    android:id="@+id/contactUs"
+                    android:icon="@drawable/contact_us"
+                    android:title="Contact Us" />
+                <item
+                    android:id="@+id/team"
+                    android:icon="@drawable/iconsteam"
+                    android:title="Team"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="More Menu">
+
+            <menu>
+                <item
+                    android:id="@+id/Policy"
+                    android:icon="@drawable/baseline_policy_24"
+                    android:title="Policy" />
+                <item
+                    android:id="@+id/signIn"
+                    android:icon="@drawable/log_in_icon_128822"
+                    android:title="Sign In" />
+                <item
+                    android:id="@+id/singUp"
+                    android:icon="@drawable/signup_icon"
+                    android:title="Sing UP" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
